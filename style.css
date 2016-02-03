@@ -6,3 +6,51 @@ Template:       thestory
 */
 
 @import url("../thestory/style.css");
+
+@media screen and (min-width: 1001px) {
+
+#logo-container {
+	margin-right: 10px;
+}
+.navigation-container,
+#menu {
+	float: none;
+}
+.menu-left,
+.menu-center {
+	float: left;
+	margin-right: 20px;
+}
+.menu-right {
+	float: right;
+}
+ul.menu-left > li > a {
+	padding: 1px 4px;
+	margin: 0 5px;
+	border: 1px solid transparent;
+}
+ul.menu-center > li > a {
+	padding: 1px 4px;
+	margin: 0 5px;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+.fixed-header-scroll ul.menu-center > li > a {
+	border: 1px solid #000;
+}
+.nav-menu > ul > li > a::after {
+	content: none;
+}
+ul.menu-right > .current-lang > a,
+.menu-ul > .current-menu-item > a,
+.menu-ul > .current_page_item > a,
+ul.menu-ul > li:hover > a {
+	border-bottom: 1px solid #000;
+}
+ul.menu-right > li > a {
+	padding: 1px 1px;
+	margin: 0 1px;
+	border: 1px solid transparent;
+}
+
+}
