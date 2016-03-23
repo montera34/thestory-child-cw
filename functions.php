@@ -6,6 +6,9 @@ function cw_theme_setup() {
 	/* Add your nav menus function to the 'init' action hook. */
 	add_action( 'init', 'cw_register_menus' );
 
+	/* Load JavaScript files on the 'wp_enqueue_scripts' action hook. */
+	add_action( 'wp_enqueue_scripts', 'cw_load_scripts' );
+
 } // end montera34 theme setup function
 
 // register custom menus
@@ -20,4 +23,13 @@ function cw_register_menus() {
 	}
 } // end register custom menus
 
-
+// load js scripts to avoid conflicts
+function cw_load_scripts() {
+	wp_enqueue_script(
+		'cw-js',
+		get_stylesheet_directory_uri() . '/js/cw.js',
+		array( 'jquery' ),
+		'0.1',
+		TRUE
+	);
+}
