@@ -8,7 +8,16 @@ Template:       thestory
 @import url("../thestory/style.css");
 
 @media screen and (min-width: 1001px) {
-
+/*
+#header {
+	padding-top: 22px;
+	padding-bottom: 15px;
+}
+#header .section-header {
+	text-align: center;
+	padding: 0;
+	position: relative;
+}*/
 #logo-container {
 	margin-right: 10px;
 }
@@ -52,5 +61,40 @@ ul.menu-right > li > a {
 	margin: 0 1px;
 	border: 1px solid transparent;
 }
+/*
+ul.menu-right > li {
+	padding: 1px;
+}
 
+#menu ul li a {
+	line-height: 1em;
+}
+.menu-center > li > a {
+	border: 1px solid #bbb !important;
+	padding: 3px 4px !important;
+}
+.menu-center > li:hover > a {
+	background-color: #fff;
+	color: #2f2f2f !important;
+	opacity: 0.9 !important;
+	border-color: #fff !important;
+}
+.menu-right {
+	position: absolute !important;
+	right: 0;
+}
+.nav-menu ul {
+	display: inline-block;
+	margin: 8px 0;
+}
+
+.menu-ul .sub-menu {
+	text-align: left;
+	font-weight: bold;
+}
+.header-buttons {
+	margin-top: 0;
+}
+
+*/
 }
