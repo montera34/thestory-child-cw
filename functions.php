@@ -32,4 +32,5 @@ function cw_load_scripts() {
 		'0.1',
 		TRUE
 	);
+	wp_enqueue_style( 'fontawesome', get_stylesheet_directory_uri().'/fontawesome/css/font-awesome.min.css',NULL,'4.7.0' );
 }
