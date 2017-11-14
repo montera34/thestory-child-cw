@@ -1,7 +1,7 @@
 /*
 Theme Name:     CivicWise
 Author:         Montera34
-Author URI:     http://montera34.com
+Author URI:     https://montera34.com
 Template:       thestory
 */
 
@@ -36,30 +36,29 @@ Template:       thestory
 ul.menu-left > li > a {
 	padding: 1px 4px;
 	margin: 0 5px;
-	border: 1px solid transparent;
+/*	border: 1px solid transparent;*/
 }
 ul.menu-center > li > a {
-	padding: 1px 4px;
+/*	padding: 1px 4px;
 	margin: 0 5px;
 	background-color: #fff;
-	border: 1px solid #fff;
-}
-.fixed-header-scroll ul.menu-center > li > a {
-	border: 1px solid #000;
+	border: 1px solid #fff;*/
+/*	border: 1px solid transparent;*/
+	font-weight: bold;
 }
 .nav-menu > ul > li > a::after {
 	content: none;
 }
-ul.menu-right > .current-lang > a,
+/*ul.menu-right > .current-lang > a,
 .menu-ul > .current-menu-item > a,
 .menu-ul > .current_page_item > a,
 ul.menu-ul > li:hover > a {
 	border-bottom: 1px solid #000;
-}
+}*/
 ul.menu-right > li > a {
 	padding: 1px 1px;
 	margin: 0 1px;
-	border: 1px solid transparent;
+/*	border: 1px solid transparent;*/
 }
 /*
 ul.menu-right > li {
