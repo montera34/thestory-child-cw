@@ -39,12 +39,15 @@ ul.menu-left > li > a {
 /*	border: 1px solid transparent;*/
 }
 ul.menu-center > li > a {
-/*	padding: 1px 4px;
-	margin: 0 5px;
+	padding: 1px 4px;
+/*	margin: 0 5px;
 	background-color: #fff;
-	border: 1px solid #fff;*/
-/*	border: 1px solid transparent;*/
-	font-weight: bold;
+	border: 1px solid #fff;
+	border: 1px solid transparent;
+	font-weight: bold;*/
+}
+.menu-extra {
+	font-size: 0.9em;
 }
 .nav-menu > ul > li > a::after {
 	content: none;
@@ -57,7 +60,7 @@ ul.menu-ul > li:hover > a {
 }*/
 ul.menu-right > li > a {
 	padding: 1px 1px;
-	margin: 0 1px;
+	margin: 0 5px;
 /*	border: 1px solid transparent;*/
 }
 /*
@@ -97,3 +100,5 @@ ul.menu-right > li {
 
 */
 }
+
+

@@ -125,13 +125,19 @@ if(is_archive() || is_search() || is_page_template('template-portfolio-gallery.p
 					'theme_location' => 'cw-pre-center-menu', 
 					'container' => false,
 					'menu_class' => 'menu-ul menu-center');
-				wp_nav_menu($menu_args);
+				if(has_nav_menu( 'cw-pre-right-menu' ))
+					wp_nav_menu($menu_args);
 				$menu_args = array(
 					'theme_location' => 'cw-pre-right-menu', 
 					'container' => false,
 					'menu_class' => 'menu-ul menu-right');
 				wp_nav_menu($menu_args);
-
+				if ( is_user_logged_in() ) {
+					$cuser = wp_get_current_user();
+					echo '<div class="menu-ul menu-right menu-extra"><small>';
+					printf(__('Hi %s','cw'),$cuser->user_login);
+					echo '</small></div>';
+				}
 				?>
 				</div>
 				
