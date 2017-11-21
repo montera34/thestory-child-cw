@@ -9,6 +9,9 @@ function cw_theme_setup() {
 	/* Load JavaScript files on the 'wp_enqueue_scripts' action hook. */
 	add_action( 'wp_enqueue_scripts', 'cw_load_scripts' );
 
+	// load text domain for child theme
+	load_theme_textdomain( 'cw', get_stylesheet_directory_uri() . '/lang' );
+
 } // end montera34 theme setup function
 
 // register custom menus

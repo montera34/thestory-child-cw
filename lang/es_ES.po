@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Child theme of Story for Civicwise\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-21 21:47+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alfonso Sánchez Uzábal <skotperez@voragine.net>\n"
+"Language-Team: info@montera34.com\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_n:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../functions.php:22
+msgid "Header centered menu"
+msgstr "Menú central de cabecera"
+
+#: ../functions.php:23
+msgid "Header right menu"
+msgstr "Menú derecho de cabecera"
+
+#: ../header.php:109
+msgid "Menu"
+msgstr "Menú"
+
+#: ../header.php:138
+#, php-format
+msgid "Hi %s"
+msgstr "Hola %s"
+
+#~ msgid "All"
+#~ msgstr "Todos"
+
+#~ msgid "Texts"
+#~ msgstr "Textos"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Add text"
+#~ msgstr "Añadir texto"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Edit this text"
+#~ msgstr "Editar este texto"
+
+#~ msgid "New text"
+#~ msgstr "Nuevo texto"
+
+#~ msgid "View text"
+#~ msgstr "Ver texto"
+
+#~ msgid "View this text"
+#~ msgstr "Ver este texto"
+
+#~ msgid "Search texts"
+#~ msgstr "Buscar textos"
+
+#~ msgid "No texts found"
+#~ msgstr "Ningún texto encontrado"
+
+#~ msgid "No texts in the trash"
+#~ msgstr "Ningún texto en la papelera"
+
+#~ msgid "Parent"
+#~ msgstr "Superior"
+
+#~ msgid "Basurama's texts selection"
+#~ msgstr "Selección de textos de Basurama"
+
+#~ msgid "Text type"
+#~ msgstr "Tipo de texto"
+
+#~ msgid "Co-authors"
+#~ msgstr "Co-autores"
+
+#~ msgid "Institutions"
+#~ msgstr "Instituciones"
+
+#~ msgid "Collaborators"
+#~ msgstr "Colaboradores"
+
+#, fuzzy
+#~ msgid "Measures"
+#~ msgstr "Tamaño"
+
+#~ msgid "Funders"
+#~ msgstr "Financiadores"
+
+#~ msgid "Thanks to"
+#~ msgstr "Agradecimientos"
+
+#~ msgid "Technical details"
+#~ msgstr "Ficha ténica"
+
+#~ msgid "If multiple cities or countries"
+#~ msgstr "Rellenar si el proyecto tiene múltiples ciudades o países"
+
+#~ msgid "If the project has took place in more than one city or country, write here all the cities and countries with the exact format you want them to appear in Portfolio and project page. And fill in the city and country checkboxes too."
+#~ msgstr "Si el proyecto tuvo lugar en más de una ciudad o país, escribe a continuación todas las ciudades y países con el formato exacto en el que quieras que aparezcan en la página de Portfolio y en la del proyecto. No olvides marcar las ciudades y países en los listados encima de esta caja."
