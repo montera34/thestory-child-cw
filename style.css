@@ -48,6 +48,7 @@ ul.menu-center > li > a {
 }
 .menu-extra {
 	font-size: 0.9em;
+	color: #fff;
 }
 .nav-menu > ul > li > a::after {
 	content: none;
