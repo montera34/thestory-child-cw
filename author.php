@@ -10,12 +10,10 @@ $pexeto_page['title'] = get_the_author();
 //include the before content template
 locate_template( array( 'includes/html-before-content.php' ), true, true );
 
-$current_user = wp_get_current_user();
+$wiser_query_vars = get_user_by('slug', $wp_query->query_vars['author_name']);
+$uid = $wiser_query_vars->ID;
+echo $uid;
 
-//print_r( $current_user );
-
-echo $current_user->display_name;
-$uid = $current_user->ID;
 $metas = array(
 	array( '',get_user_meta($uid,'user_image',true),'avatar' ),
 	array( __('Website','cw'),$current_user->user_url,'url' ),
