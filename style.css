@@ -103,3 +103,45 @@ ul.menu-right > li {
 }
 
 
+/* portfolio single styles */
+.ps-fullwidth .ps-side {
+	width: 25%;
+	float: left;
+}
+.ps-fullwidth .ps-content-text {
+	margin-left: 28%;
+}
+.ps-basic-materials {
+	padding-top: 3px;
+	border-top: 1px solid #000;
+	margin-top: 5px;
+}
+.ps-title {
+	line-height: 1em;
+	color: #000;
+}
+.ps-side-title {
+	border-bottom: 1px solid #ddd;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+}
+.ps-basic {
+	font-size: 12px;
+	color: #000;
+}
+.ps-side-down {
+	margin-top: 150px;
+}
+.ps-extra {
+	color: #000;
+	font-size: 12px;
+	padding-bottom: 1em;
+	clear: both;
+}
+.ps-extra-label {
+	text-transform: uppercase;
+}
+.ps-content-text a {
+	font-weight: bold;
+}
